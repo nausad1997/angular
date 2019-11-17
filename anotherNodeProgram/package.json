@@ -1,0 +1,24 @@
+{
+  "name": "employee-data",
+  "version": "1.0.0",
+  "description": "this is just a small express application for storing employee data",
+  "main": "index.js",
+  "scripts": {
+    "docs": "apidoc -i route/ -o apidoc/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nausad",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.7",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.7.8",
+    "pino": "^5.13.6",
+    "shortid": "^2.2.15"
+  }
+}
